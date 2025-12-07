@@ -55,4 +55,4 @@ while IFS=';' read -r student_id repo_url; do
   echo "Current commit ID:"
   git rev-parse HEAD
   echo "==============================="
-done < ./git-sec${SEC}.txt
+done < ./sec${SEC}.txt
