@@ -11,12 +11,14 @@ If you are a TA, here is the guide for using my program:
 
 You can use `git_pull_latest.sh` followed by 2 parameters: Lab and Sec.
 
-`\bin\bash git_pull_latest.sh <LAB> <SEC>`
+`/bin/bash repo/git_pull_latest.sh <LAB> <SEC>`
 
 Make sure that the deadline is configured correctly; incorrect configuration can cause catastrophic problems.
 You can adjust the deadline by checking the very first line in the `git_pull_latest.sh` script file directly.
 
 This will read the `sec.txt` file for each section respectively, and automatically pull the latest submission that is still on time (+ extra 2 days for acceptable late submission penalty).
+
+I recommended you to config and store your credential into your terminal permanently using command: `git config --global credential.helper store`
 
 ## Auto-run + Testcases
 
