@@ -3,9 +3,17 @@
 #set deadline date
 #don't forget to set it +3 day from the actual deadline (for late submissions)
 #if there're any changes in the lab deadlines, please update them here
+# accept variables for lab number and section number
+LAB=$1
+SEC=$2
+if [ -z "$LAB" ] || [ -z "$SEC" ]; then
+  echo "Usage: $0 <lab_number> <section_number>"
+  exit 1
+fi
+
 # =============================
 # lab 1
-if [ $LAB -eq 1 ] && [ $SEC -eq 1 ]; then
+if [ "$LAB" -eq 1 ] && [ "$SEC" -eq 1 ]; then
   DEADLINE="2025-12-05 00:00" # lab 1 sec 1
 elif [ $LAB -eq 1 ] && [ $SEC -eq 2 ]; then
   DEADLINE="2025-12-08 00:00" # lab 1 sec 2
@@ -22,13 +30,6 @@ else
   exit 1
 fi
 
-# accept variables for lab number and section number
-LAB=$1
-SEC=$2
-if [ -z "$LAB" ] || [ -z "$SEC" ]; then
-  echo "Usage: $0 <lab_number> <section_number>"
-  exit 1
-fi
 
 # =============================
 
