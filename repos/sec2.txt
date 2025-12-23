@@ -15,6 +15,7 @@
 683040410-1;https://github.com/natthawatchar-commits/Natthawat-4101-java-labs.git
 683040413-5;https://github.com/thanapiput413-5/thanapiput-4135-java-labs.git
 683040415-1;https://github.com/naphat0813216830/naphat-0415-java-labs
+683040416-9;https://github.com/nitiphumbu-cloud/Nitipoom-4169-java-labs
 683040418-5;https://github.com/liltarrthecoe35/piyawat-4185-java-labs
 683040424-0;https://github.com/PeaceZ-28/peeravit-4240-java-labs
 683040426-6;https://github.com/Cappuchx/yodsakon-4266-java-labs.git
@@ -41,6 +42,7 @@
 683040699-1;https://github.com/Weeraphat-BTBS/weeraphat-6991-java-labs
 683040700-2;https://github.com/13ewSarunya/sarunya-7002-java-labs.git
 683040701-0;https://github.com/Sintu-Jomsawan/sintu-7010-java-labs.git
+683040702-8;https://github.com/pppspppp/sirirat-7028-java-labs.git
 683040703-6;https://github.com/AnuphatPun/Anuphat-7036-java-labs
 683040704-4;https://github.com/apichaday-eng/apichada-683040704-4-java-labs.git
 683040705-2;https://github.com/SpiriA159/netinan-7052-java-labs.git
