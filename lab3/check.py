@@ -106,6 +106,7 @@ def compile_and_run(target_file, TARGET_FILE):
     
     # เตรียมพาธสำหรับ test cases
     # แก้ไขพาธให้ตรงกับโครงสร้างไดเรกทอรีของคุณ
+    # แก้ path เป็นของตัวเอง
     input_dir = f"D:/Work/TA adcom2025/ACP/lab3/{TARGET_FILE.replace('.java', '')}/"
     
     if not os.path.isdir(input_dir):
