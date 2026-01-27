@@ -20,6 +20,16 @@ def press_key():
         print("Quitting...")
         sys.exit(0)
 
+def list_directories(path='.'):
+    directories = []
+    for entry in os.listdir(path):
+        full_path = os.path.join(path, entry)
+        if os.path.isdir(full_path):
+            directories.append(entry)
+    return directories
+
+
+
 def process_directory(student_id):
     student_path = f"../repos/{student_id}"
     if not os.path.isdir(student_path):
@@ -121,6 +131,8 @@ def process_directory(student_id):
     os.chdir(original_dir)
 
 def main():
+    # directory_names = list_directories('../repos')
+    # print(f"Folders in '../repos': {directory_names}")
     while True:
         student_id = input("Enter the directory (student ID) to run, or type 'q' to quit: ").strip()
         if student_id.lower() == "q":
